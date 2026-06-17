@@ -5,7 +5,7 @@ let cont = 0
 let acum = 0.0
 
 btnNum.addEventListener('click', (evt) =>{
-    for(i = 1; i <= 1000; i++){
+    for( i = 1; i <= 1000; i++){
         if( i % 7 == 0){
             cont++
         }
