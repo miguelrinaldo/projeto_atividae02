@@ -7,7 +7,7 @@ let cont12 = 0
 let contPode = 0
 let contNaoPode = 0
 
-btnVerifica.addEventListener('click', (evt) => {
+btnVerifica.addEventListener('click', (evt) =>{
     let idade = Number(inpuIdade.value)
     let peso = Number(inputPeso.value)
 
@@ -19,7 +19,9 @@ btnVerifica.addEventListener('click', (evt) => {
 
     cont12++
 
-    if (cont12 == 4) {
+    console.log(idade, peso)
+
+    if (cont12 == 2) {
         inpuIdade.setAttribute('disabled', 'disabled')
         inputPeso.setAttribute('disabled', 'disabled')
 
